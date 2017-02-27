@@ -20,7 +20,11 @@
   "devDependencies": {
     "@types/react-redux": "^4.4.36",
     "awesome-typescript-loader": "^3.0.8",
+    "css-loader": "^0.26.2",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.2",
     "source-map-loader": "^0.1.6",
+    "style-loader": "^0.13.2",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.4.1"
   }

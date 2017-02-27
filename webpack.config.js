@@ -18,7 +18,8 @@ module.exports = {
         loaders: [
             // All files with a '.ts' or '.tsx' extension will be handled by 'awesome-typescript-loader'.
             { test: /\.tsx?$/, loader: "awesome-typescript-loader" },
-            { test: /\.js$/, loader: "source-map-loader", enforce: "pre" }
+            { test: /\.js$/, loader: "source-map-loader", enforce: "pre" },
+            { test: /\.scss$/, loader: [ 'style-loader', 'css-loader?sourceMap', 'sass-loader?sourceMap']}
         ]
     },
     devServer: { inline: true }
