@@ -23,6 +23,7 @@ module.exports = {
         ]
     },
     devServer: { 
-        inline: true
+        inline: true,
+        historyApiFallback: true
      }
 };

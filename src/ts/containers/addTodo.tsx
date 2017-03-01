@@ -17,8 +17,8 @@ let AddTodo = ({ dispatch}: any) => {
       }}>
         <input ref={node => {
           input = node
-        }} />
-        <button type="submit">
+        }} className="style-4" type="text" />
+        <button type="submit" className="btn btn-1 btn-1a">
           Add Todo
         </button>
       </form>
