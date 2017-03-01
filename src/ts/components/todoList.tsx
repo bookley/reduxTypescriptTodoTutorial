@@ -1,5 +1,5 @@
 import * as React from 'react'
-import TodoComponent from './Todo'
+import TodoComponent from './todo'
 import Todo from '../state/todo'
 
 const TodoList = (props: {todos: Array<Todo>, onTodoClick: (id: number) => void}): JSX.Element =>

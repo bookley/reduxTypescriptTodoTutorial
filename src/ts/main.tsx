@@ -7,7 +7,7 @@ import { syncHistoryWithStore, routerReducer } from 'react-router-redux'
 
 import {todos, visibilityFilter}  from './reducers/reducers'
 
-import App from './components/App'
+import App from './components/app'
 import Login from './components/login'
 
 declare var require: {
